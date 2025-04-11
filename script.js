@@ -11,7 +11,7 @@ const statusFilterE1 = document.getElementById('status-filters');
 
 //crear funcion que haga el lalamdo a la api
 
-async function getCharacters (name,status){
+async function getCharacters(name, status) {
     //para que pueda ser una funcion que pueda manejar promesas, hacer  fetch y retornar de forma
     //limpia, usamos ASYNC
 
