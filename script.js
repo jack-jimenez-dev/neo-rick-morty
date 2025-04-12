@@ -5,9 +5,9 @@
 //cuando cambian los filtros se tiene que hacer un neuvo llamado a la API
 //Se debe renderizar neuvamente
 
-const characterE1 = document.getElementById('characters');
-const nameFilterE1 = document.getElementById('name-filters');
-const statusFilterE1 = document.getElementById('status-filters');
+const characterE1 = document.getElementById('characters'); //el contenedor de los personajes
+const nameFilterE1 = document.getElementById('name-filters'); //el input de nombre
+const statusFilterE1 = document.getElementById('status-filters'); //el input de estado
 
 
 
@@ -16,7 +16,7 @@ async function getCharacters(name, status) {
     //para que pueda ser una funcion que pueda manejar promesas, hacer  fetch y retornar de forma
     //limpia, usamos ASYNC
 
-    //definir endpoint
+    // url de la api
     let url = 'https://rickandmortyapi.com/api/character/?name=rick&status=alive'
 
     const response = await fetch(url); // retorna una promesa
