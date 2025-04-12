@@ -9,6 +9,9 @@ body {
 h1,
 #filters {
     text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    color: #6e1c1c;
 }
 
 #filters input,
