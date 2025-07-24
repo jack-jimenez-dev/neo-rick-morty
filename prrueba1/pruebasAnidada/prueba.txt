@@ -1,0 +1,31 @@
+# Hola, esta es una prueba. Borrar.
+************* hola ***********
+Hola, esta es una prueba. Borrar.
+
+### 🧩 Título:
+Permitir comentarios por plato tras hacer clic en “Realiza tu pedido”
+
+### 📌 Tipo:
+Nueva funcionalidad
+
+### 📂 Contexto:
+Actualmente, el botón “Realiza tu pedido” solo redirige a WhatsApp. No se recoge ninguna preferencia del usuario por cada plato elegido.
+
+### 🧠 Problema:
+No existe forma de que el comensal deje una indicación, ajuste o comentario breve por plato seleccionado.
+
+### ✅ Solución propuesta:
+Al hacer clic en el botón “Realiza tu pedido”, mostrar un ícono ✍️ junto a cada plato elegido que permita abrir un campo de texto corto (máx. 140 caracteres) antes de redirigir al restaurante por WhatsApp.
+
+### 🛠️ Tareas técnicas:
+- Renderizar íconos de comentario solo en platos seleccionados
+- Mostrar input desplegable al hacer clic
+- Validar texto (longitud y caracteres especiales)
+- Agregar comentarios al mensaje de WhatsApp generado
+
+### 📅 Estimación:
+2 días desarrollo + 1 día de QA
+
+### 🧪 Crite
+
+
